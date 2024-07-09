@@ -75,8 +75,8 @@
 
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 5px;
+  margin: 3px;
 }
 
 html,
@@ -87,7 +87,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  background: l#ffffff(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
@@ -105,3 +105,94 @@ a {
     color-scheme: dark;
   }
 }
+
+
+body {
+  background-color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.content-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+
+p {
+  margin: 20px 0;
+  line-height: 1.5;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #52B6EC;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+
+button:hover {
+  background-color: #3a8bbd;
+}
+
+.highlight {
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  width: 80%;
+  background-color: #e3f4fc;
+  border-left: 5px solid #52B6EC;
+}
+
+.spaced-text {
+  margin-top: 20px; /* Adds space before the text */
+  text-align: center; /* Centers the text */
+}
+.left-align {
+  display: block;
+  margin: 10px 0;
+}
+.spaced-text p {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.spaced-text h2 {
+  margin-bottom: 0px; ; /* Adds space between the h2 elements */
+  padding: 12px 10px; /* Adds padding to h2 elements */
+}
+h1 {
+  margin-top: 100px; /* Adjust this value to change the space */
+  margin-bottom: 20px; /* Space between h1 and h2 */
+}
+
+h2 {
+  margin-bottom: 20px; /* Adjust this value to change the space */
+
+}
+.main-section{
+  background-color: orange;
+  color: white;
+  padding: 9px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.main-section::after {
+  content: ' → '; /* Arrow sign using pseudo-element */
+}
+
+.package-section{
+  margin-bottom: 50px; ; /* Adds space between the h2 elements */
+  padding:  0px;
+  padding-bottom: 0px; /* Adds padding to h2 elements */
+  
+}
+

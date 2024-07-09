@@ -1,0 +1,70 @@
+
+.header {
+    background-color: #f8f9fa; /* Example background color */
+    padding: 0 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between ; /* Space between nav links and auth links */
+    align-items: center;
+    padding: 0px 20px;
+   background-color:white
+        
+      }
+      
+  
+  
+  .nav-links {
+   display: flex;
+    list-style: none;
+    gap: 0px; /* Space between each nav link */
+    margin: 6px; /* Remove default margin */
+    padding: 0px 35px; /* Remove default padding */
+    
+  }
+  
+  .nav-links li {
+    margin: 0;
+    padding: 0 65px;
+    
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #000; /* Example link color */
+  }
+  
+  .auth-links {
+    display: flex; /* Use flex to align the buttons horizontally */
+    gap: 50px; /* Space between sign in and login buttons */
+    align-items: center;
+  }
+  
+  .auth-btn {
+    text-decoration: none;
+    color: black;
+    padding: 9px 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  .auth-btn:hover {
+    background-color: #f1f1f1; /* Example hover effect */
+  }
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .signUpBtn {
+  background-color:#3498db;;
+  color: white; /* Ensure the text is readable on the blue background */
+  white-space: nowrap;
+  padding: 9px 15px;
+  border-radius: 12px;
+}

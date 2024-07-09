@@ -1,7 +1,6 @@
-import React from 'react';
 
-const SubscriptionSection: React.FC = () => {
-  return (
+export default function() {
+  return <>
     <section id="offers">
       <h2 className="section-title">SUBSCRIPTION PLAN AND BENEFITS</h2>
       <div className="card">
@@ -13,7 +12,7 @@ const SubscriptionSection: React.FC = () => {
         <p>Earn $0 on every Access Pro Ambassador registered</p>
         <p>Earn $10 on every student you bring to Language Academy</p>
         <p>Earn $5 each from all students your downline register every month</p>
-        <button>Subscribe</button>
+        <button className="left-align">Subscribe</button>
       </div>
       <div className="card">
         <h3 className="card-title">Easier decision making for ACCESS PRO AMBASSADORS</h3>
@@ -24,7 +23,7 @@ const SubscriptionSection: React.FC = () => {
         <p>Earn $0 on every Access Pro Ambassador registered</p>
         <p>Earn $10 on every student you bring to Language Academy</p>
         <p>Earn $5 each from all students your downline register every month</p>
-        <button>Subscribe</button>
+        <button className="left-align">Subscribe</button>
       </div>
       <div className="card">
         <h3 className="card-title">Easier decision making for DIAMOND AMBASSADORS</h3>
@@ -35,7 +34,7 @@ const SubscriptionSection: React.FC = () => {
         <p>Earn $0 on every Access Pro Ambassador registered</p>
         <p>Earn $10 on every student you bring to Language Academy</p>
         <p>Earn $5 each from all students your downline register every month</p>
-        <button>Subscribe</button>
+        <button className="left-align">Subscribe</button>
       </div>
       <div className="card">
         <h3 className="card-title">Easier decision making for PREMIUM AMBASSADORS</h3>
@@ -46,10 +45,9 @@ const SubscriptionSection: React.FC = () => {
         <p>Earn $0 on every Access Pro Ambassador registered</p>
         <p>Earn $10 on every student you bring to Language Academy</p>
         <p>Earn $5 each from all students your downline register every month</p>
-        <button>Subscribe</button>
+        <button className="left-align">Subscribe</button>
       </div>
     </section>
-  );
+  </>;
 };
 
-export default SubscriptionSection;

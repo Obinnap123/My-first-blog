@@ -1,20 +1,24 @@
-import React from 'react';
-import Header from '../components/Header';
+import Header from '../components/Header/index';
 import MainSection from '../components/MainSection';
 import PackagesSection from '../components/PackagesSection';
 import SubscriptionSection from '../components/SubscriptionSection';
-import Footer from '../components/Footer';
+import Footer from '../components/Footer/index';
+import style from '../app/page.module.scss';
 
-const Home: React.FC = () => {
-  return (
+export default function Home() {
+  return <>
+  <main> 
     <div>
-      <Header />
-      <MainSection />
-      <PackagesSection />
-      <SubscriptionSection />
-      <Footer />
-    </div>
-  );
+  <Header />
+  <MainSection />
+  <PackagesSection />
+  <SubscriptionSection />
+  <Footer />
+  </div>
+  </main>
+   
+    
+  </>
 };
 
-export default Home;
+
