@@ -7,17 +7,13 @@ import style from '../app/page.module.scss';
 
 export default function Home() {
   return <>
-  <main> 
-    <div>
-  <Header />
-  <MainSection />
-  <PackagesSection />
-  <SubscriptionSection />
-  <Footer />
-  </div>
-  </main>
-   
-    
+    <main>
+      <Header />
+      {/* <MainSection /> */}
+      {/* <PackagesSection /> */}
+      {/* <SubscriptionSection /> */}
+      {/* <Footer /> */}
+    </main>
   </>
 };
 

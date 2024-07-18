@@ -1,64 +1,61 @@
-// Navbar.module.scss
-
-
 .header {
-  width: 100%;
-  display: flex;
   padding: 2vh 7vw;
+  left: 0;
+  right: 0;
+
+  .logo {
+    max-width: 100px;
+
+    @media screen and (min-width: 992px) {
+      width: 120px;
+      max-width: none;
+    }
+  }
 }
 
 .navbar {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
   margin: 0;
 }
 
 .nav-links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 0;
+  gap: 25px;
 }
 
 .auth-links {
-  display: flex;  /* This is the flex container */
-  align-items: center;
-  justify-content: space-between; /* Apply here to distribute buttons */
+  gap: 25px;
 }
 
-.authBtn {
-  /* Styles for your buttons */
+.signUpBtn {
   background-color: #6bd0ff;
   color: #ffffff;
   padding: 5px 15px;
   font-size: 13px;
   border: none;
-  border-radius: 13px;
-  cursor: pointer;
-}
+  border-radius: 6px;
 
-.signUpBtn:hover {
-  background-color: #4ce4ff;
+  &:hover {
+    background-color: #4ce4ff;
+  }
+
 }
 
 .loginBtn {
-  background-color: #6bd0ff;
   color: black;
   padding: 5px 15px;
   font-size: 13px;
-  border: none;
-  border-radius: 13px;
-  cursor: pointer;
+  border: 1px solid #6bd0ff;
+  border-radius: 6px;
+
+  &:hover {
+    background-color: #4ce4ff;
+  }
 }
 
-.loginBtn:hover {
-  background-color: #4ce4ff;
+.hamburger {
+  width: 24px;
+  color: #6bd0ff;
+
+  &:hover {
+    opacity: 0.4;
+  }
 }
-
-
-
-
-
-
